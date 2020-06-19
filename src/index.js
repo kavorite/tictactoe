@@ -9,8 +9,6 @@ function Square(props) {
         <button
                 style={props.highlight ? {'background-color': '#05f7ff'} : {}}
                 className="square"
-                height='300px'
-                width='300px'
                 onClick={props.onClick}>
             {props.value}
         </button>
